@@ -1,0 +1,307 @@
+@media only screen and (max-width: 480px) {
+    *{
+        box-sizing: border-box;
+    }
+    
+    body,html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden; /* Prevent horizontal scrolling */
+    }
+
+    header{
+        width: 100%;
+    }
+
+    nav a{
+        display: none;
+    }
+
+    #nav-icon{
+        display: block;
+    }
+
+    .section1{
+        width: 100%;
+    }
+
+    .text-sec1 h1{
+        font-size: 38px;
+    }
+
+    .text-sec1 h3{
+        font-size: 20px;
+    }
+
+    .section2{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section2 img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .section2 p {
+        font-size: 13px;
+        width: 300px;
+    }
+
+    .text-sec2{
+        margin-right: 4rem;
+    }
+    .card-section{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .card{
+        width: 300px;
+        height: 280px;
+    }
+
+    .card h2{
+        font-size: 11px;
+    }
+
+    .card p{
+        font-size: 16px;
+        width: 250px;
+    }
+
+    section{
+        flex-direction: column;
+    }
+    
+    .pcards{
+        width: 240px;
+        height: 150px;
+    }
+
+    .pcards img{
+        width: 240px;
+        height: 150px;
+        
+    }
+
+    .detail-cards{
+        
+      
+        width: 240px;
+        height: 150px;
+        position: absolute;
+        opacity: 0;
+        transition: 0.3s ease;
+    }
+    
+    .detail-cards:hover{
+        opacity: 1;
+    }
+    
+    .detail-cards p{
+        font-family: "Josefin Sans", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: rgba(255, 255, 255, 0.767);
+        font-size: 14px;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .detail-cards button{
+        padding: 10px 35px;
+        font-size: 16px;
+        border-radius: 15px;
+        border: 1px solid;
+        border-color: white;
+        background: none;
+        color: white;
+        transition: 0.3s ease;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .table{
+        width: 500px;
+    }
+
+    .lines{
+        gap: 7rem;
+    }
+
+    .header-sec{
+        gap: 5rem;
+    }
+
+    .header-sec h2{
+        font-size: 16px;
+        margin-right: 1rem;
+    }
+
+    .r-t{
+        right: 20px;
+        position: relative;
+    }
+
+    .icons{
+        gap: 4rem;
+        margin-top: 8rem;
+        font-size: 30px;
+    }
+
+    .table-sec{
+        gap: 0rem;
+        font-size: 18px;
+    }
+
+    .table-sec p{
+        width: 120px;
+        margin-left: 1rem;
+        text-align: center;
+    }
+
+    .Listening{
+        position: relative;
+        left: 16px;
+    }
+
+    .capture{
+        position: relative;
+        right: 25px;
+    }
+    
+    .icons2{
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        font-size: 20px;
+        margin-top:8rem;
+      
+    }
+    
+    .icons2 p{
+        font-size: 17px;
+        font-family: "Josefin Sans", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        position: relative;
+        left: 3rem;
+        bottom: 1rem;
+    }
+  }
+
+
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    body,html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    
+    header{
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+
+    nav a{
+      display: none;
+    }
+
+    #nav-icon{
+        display: block;
+        margin-right: 2rem;
+    }
+
+   
+
+    .section2{
+        flex-direction: column;
+    }
+
+    .section2 img{
+        width: 353px;
+        height: 350px;
+        border-radius: 370px;
+        margin-left: 1rem;
+        align-self: center;
+    }
+
+    .text-sec2{
+        align-self: center;
+        margin-right: 4rem;
+    }
+
+    .text-sec2 h1{
+        font-size: 80px;
+    }
+
+    .text-sec2 p{
+        display: block;
+        font-size: 28px;
+        width: 700px;
+    }
+
+    .card-section{
+        gap: 2rem;
+    }
+
+    .card{
+        width: 360px;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .pcards{
+        height: 260px;
+    }
+
+    .pcards img{
+        height: 260px;
+    }
+
+    .detail-cards{
+        height: 260px;
+    }
+    .detail-cards p{
+        margin-top: 4rem;
+    }
+
+    .table{
+        width: 700px;
+    }
+
+    .lines{
+    gap: 14rem;    
+    }
+
+    .icons{
+    gap: 9rem;
+    }
+
+    .table-sec{
+    gap: 4rem;
+    margin-left: 3rem;
+    }
+
+    .header-sec {
+    gap: 8rem;
+    }
+
+}
